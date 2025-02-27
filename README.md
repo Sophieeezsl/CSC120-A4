@@ -52,7 +52,7 @@ Remember, OOP is all about deciding which classes are responsible for which part
  - Does **another class** need to be able to **read** this value? (If so, it could either be marked `public` or have an `accessor`)
  - Does **another class** need to be able to **modify** this value? (If so, it could either be marked `public` or have a `manipulator`)
 
- 
+
 You can use the `main` method defined below as a starting point for testing:
  ```
     public static void main(String[] args) {
